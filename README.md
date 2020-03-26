@@ -7,6 +7,6 @@ Template repository to quickly get a simulated pepper environment up and running
 1. Clone this repo: `git clone https://github.com/frietz58/pepper_sim.git`
 2. Change working dir: `cd pepper_sim/pepper_ws/src/`
 3. Run installation script: `bash ./pepper_moveit_setup.sh`
-4. During the installation, you will be have to accept the licence of that ships the pepper meshes, and enter installation path. **Important**: This path has be: `[/path/to/repo]/pepper_sim/pepper_ws/src/pepper_meshes/`. Otherwise, RVIZ etc won't find the meshes and can't display your pepper model! 
+4. During the installation, you will be have to accept the licence of that ships the pepper meshes, and enter installation path. **Accept the default path by hitting `Enter`**, otherwise RVIZ etc might not find the meshes and won't be able to display your model of the pepper robot.
 
 The last step installs the fundamental packages (that are in theory only available for ROS kinetic), including the meshes for a model of the pepper robot, compiles everything and sources `devel/setup.bash` 
