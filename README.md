@@ -10,3 +10,8 @@ Template repository to quickly get a simulated pepper environment up and running
 4. During the installation, you will be have to accept the licence of that ships the pepper meshes, and enter installation path. **Accept the default path by hitting `Enter`**, otherwise RVIZ etc might not find the meshes and won't be able to display your model of the pepper robot.
 
 The last step installs the fundamental packages (that are in theory only available for ROS kinetic), including the meshes for a model of the pepper robot, compiles everything and sources `devel/setup.bash` 
+
+If you got no error messages, you can verify that the installation was successful by running:
+```bash
+roslaunch pepper_moveit_config demo.launch
+```.
