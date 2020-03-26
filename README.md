@@ -14,4 +14,5 @@ The last step installs the fundamental packages (that are in theory only availab
 If you got no error messages, you can verify that the installation was successful by running:
 ```bash
 roslaunch pepper_moveit_config demo.launch
-```.
+```
+.
