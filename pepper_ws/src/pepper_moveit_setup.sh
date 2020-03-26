@@ -7,7 +7,7 @@ catkin_make
 cd build/
 make pepper_meshes_meshes
 cd ..
-cp devel/tmp/meshes src/pepper_meshes/
+cp -r devel/tmp/meshes src/pepper_meshes/
 source devel/setup.bash
 
 
