@@ -15,4 +15,5 @@ If you got no error messages, you can verify that the installation was successfu
 ```bash
 roslaunch pepper_moveit_config demo.launch
 ```
-.
+You should see something like this:
+<img src="rviz.png"></img>
