@@ -1,6 +1,6 @@
 # What is this?
 
-Template repository to quickly get a simulated pepper environment up and running. This is not straight forward, because most pepper related ROS packages are only available for ROS kinetic, which is not supported on Ubuntu 18.04. Hence, we have to compile everything from source, which is essentially why the small shell script in `/pepper_ws/src/` does.
+Template repository to quickly get a simulated pepper environment up and running. This is not straight forward, because most pepper related ROS packages are only available for ROS kinetic, which is not supported on Ubuntu 18.04. Hence, we have to compile everything from source, which is essentially what the small shell script in `/pepper_ws/src/` does.
 
 # Installation
 **IMPORTANT**: Requires ROS melodic to be installed on your system. Follow installation instructions <a href="http://wiki.ros.org/melodic/Installation/Ubuntu" target="_blank">here</a>
