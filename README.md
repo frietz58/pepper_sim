@@ -19,7 +19,7 @@ To start Gazebo with pepper on a robocup field, paste the following command into
 roslaunch pepper_gazebo_plugin pepper_gazebo_plugin_Y20.launch
 ```
 You should see something like this:
-<img src=""></img>
+<img src="gazebo.png"></img>
 
 ## RVIZ + MoveIt
 To launch RVIZ and MoveIt to generate complex trajectories run:
