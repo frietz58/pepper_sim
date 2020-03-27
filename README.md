@@ -11,7 +11,18 @@ Template repository to quickly get a simulated pepper environment up and running
 
 The last step installs the fundamental packages (that are in theory only available for ROS kinetic), including the meshes for a model of the pepper robot, compiles everything and sources `devel/setup.bash` 
 
-If you got no error messages, you can verify that the installation was successful by running:
+If everything worked you can execute the below commands to either get started with RVIZ and ROS Moveit or Gazebo.
+
+## Gazebo
+To start Gazebo with pepper on a robocup field, paste the following command into your terminal. 
+```bash
+roslaunch pepper_gazebo_plugin pepper_gazebo_plugin_Y20.launch
+```
+You should see something like this:
+<img src=""></img>
+
+## RVIZ + MoveIt
+To launch RVIZ and MoveIt to generate complex trajectories run:
 ```bash
 roslaunch pepper_moveit_config demo.launch
 ```
