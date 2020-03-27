@@ -3,7 +3,7 @@
 Template repository to quickly get a simulated pepper environment up and running. This is not straight forward, because most pepper related ROS packages are only available for ROS kinetic, which is not supported on Ubuntu 18.04. Hence, we have to compile everything source, which is essentially why the small shell script in `/pepper_ws/src/` does.
 
 # Installation
-<span style="background-color:yellow;">**IMPORTANT**: Requires ROS melodic to be installed on your system. Follow installation instructions <a href="http://wiki.ros.org/melodic/Installation/Ubuntu" target="_blank">here</a></span>
+**IMPORTANT**: Requires ROS melodic to be installed on your system. Follow installation instructions <a href="http://wiki.ros.org/melodic/Installation/Ubuntu" target="_blank">here</a>
 
 1. Clone this repo: `git clone https://github.com/frietz58/pepper_sim.git`
 2. Change working dir: `cd pepper_sim/pepper_ws/src/`
