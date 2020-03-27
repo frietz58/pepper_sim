@@ -6,6 +6,10 @@ git clone https://github.com/ros-simulation/gazebo_ros_pkgs.git -b melodic-devel
 sudo apt-get install ros-melodic-moveit
 sudo apt-get install -y libgazebo9-dev
 
+# optinal, additional resources for getting started with rviz and moveit
+# git clone -b melodic-devel https://github.com/ros-planning/moveit_tutorials.git
+# git clone -b melodic-devel https://github.com/ros-planning/panda_moveit_config.git
+
 # compile them
 cd ..
 catkin_make
