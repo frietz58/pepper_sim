@@ -3,6 +3,8 @@ git clone https://github.com/ros-naoqi/pepper_moveit_config.git
 git clone https://github.com/ros-naoqi/pepper_robot.git
 git clone https://github.com/ros-naoqi/pepper_meshes.git
 git clone https://github.com/ros-simulation/gazebo_ros_pkgs.git -b melodic-devel
+git clone https://github.com/ros-naoqi/pepper_dcm_robot.git
+git clone https://github.com/ros-naoqi/pepper_virtual.git
 sudo apt-get install ros-melodic-moveit
 sudo apt-get install -y libgazebo9-dev
 
