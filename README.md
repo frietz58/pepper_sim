@@ -1,8 +1,19 @@
-# What is this?
+# THIS IS OUTDATED!
+I have a much better solution by now, please see: [this repository](https://github.com/frietz58/pepper_virtual). Here, we have a much more powerful simulation, with more functioning sensors. Additionally, everything runs in a docker container which should be more stable an easier to setup, maintain and use.
+
+You can of course still you this repository, but the new version is just better ;)
+
+
+
+
+
+
+
+## What is this?
 
 Template repository to quickly get a simulated pepper environment up and running. This is not straight forward, because most pepper related ROS packages are only available for ROS kinetic, which is not supported on Ubuntu 18.04. Hence, we have to compile everything from source, which is essentially what the small shell script in `/pepper_ws/src/` does.
 
-# Installation
+## Installation
 **IMPORTANT**: Requires ROS melodic to be installed on your system. Follow installation instructions <a href="http://wiki.ros.org/melodic/Installation/Ubuntu" target="_blank">here</a>
 
 1. Clone this repo: `git clone https://github.com/frietz58/pepper_sim.git`
@@ -14,7 +25,7 @@ The last step installs the fundamental packages (that are in theory only availab
 
 If everything worked you can execute the below commands to either get started with RVIZ and ROS Moveit or Gazebo.
 
-## Gazebo
+### Gazebo
 To start Gazebo with pepper on a robocup field, paste the following command into your terminal. 
 ```bash
 roslaunch pepper_gazebo_plugin pepper_gazebo_plugin_Y20.launch
@@ -22,7 +33,7 @@ roslaunch pepper_gazebo_plugin pepper_gazebo_plugin_Y20.launch
 You should see something like this:
 <img src="gazebo.png"></img>
 
-## RVIZ + MoveIt
+### RVIZ + MoveIt
 To launch RVIZ and MoveIt to generate complex trajectories run:
 ```bash
 roslaunch pepper_moveit_config demo.launch
