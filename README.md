@@ -2,8 +2,9 @@
 I have a much better solution by now, please see: [this repository](https://github.com/frietz58/pepper_virtual). Here, we have a much more powerful simulation, with more functioning sensors. Additionally, everything runs in a docker container which should be more stable an easier to setup, maintain and use.
 
 You can of course still you this repository, but the new version is just better ;)
+If you really want to, find the old readme below...
 
-
+<br><br><br><br>
 
 
 
